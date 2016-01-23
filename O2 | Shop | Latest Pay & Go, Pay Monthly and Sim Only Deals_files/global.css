@@ -1,0 +1,1284 @@
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+audio,
+canvas,
+video {
+    display: inline-block
+}
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+[hidden] {
+    display: none
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    margin: 0
+}
+a:focus {
+    outline: thin dotted
+}
+a:active,
+a:hover {
+    outline: 0
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0
+}
+abbr[title] {
+    border-bottom: 1px dotted
+}
+b,
+strong {
+    font-weight: bold
+}
+dfn {
+    font-style: italic
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+mark {
+    background: #ff0;
+    color: #000
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em
+}
+pre {
+    white-space: pre-wrap
+}
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019"
+}
+small {
+    font-size: 80%
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+sup {
+    top: -0.5em
+}
+sub {
+    bottom: -0.25em
+}
+img {
+    border: 0
+}
+svg:not(:root) {
+    overflow: hidden
+}
+figure {
+    margin: 0
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+legend {
+    border: 0;
+    padding: 0
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+button,
+input {
+    line-height: normal
+}
+button,
+select {
+    text-transform: none
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none
+}
+.grid,
+.grid-inner,
+.grid-row,
+.col-2,
+.col-3,
+.col-4,
+.module {
+    display: block;
+    height: auto;
+    overflow: hidden
+}
+.grid-inner,
+.grid {
+    margin: 0 auto;
+    max-width: 1100px
+}
+.grid-row {
+    margin-bottom: 20px
+}
+.grid-row.no-margin {
+    margin-bottom: 0
+}
+.section-wrap {
+    width: 100%;
+    max-width: 1100px;
+    clear: both
+}
+.section-wrap.short {
+    height: 170px
+}
+.section-wrap.short .module {
+    height: 170px
+}
+.section-wrap.short .module .module-body {
+    height: 170px
+}
+.section-wrap.tall {
+    height: 260px
+}
+.section-wrap.tall .module-body {
+    height: 260px
+}
+.module {
+    background: #efefef url("") top right no-repeat;
+    position: relative
+}
+.module a:hover {
+    cursor: pointer
+}
+.module a:hover .hover-down {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: url("//static.o2.co.uk/shared/img/hover-down-light.png") repeat scroll 0 0 transparent
+}
+.module.transparent {
+    background-color: transparent !important
+}
+.module.transparent:hover .hover-down,
+.module.dark:hover .hover-down,
+.module.light:hover .hover-down,
+.module.product-s:hover .hover-down {
+    background: url("//static.o2.co.uk/shared/img/hover-down.png") repeat scroll 0 0 transparent
+}
+.col-2 .module {
+    width: 49%;
+    margin: 0;
+    float: right
+}
+.col-2 .module:first-child {
+    float: left;
+    width: 49%;
+    margin: 0
+}
+.col-2 .module.no-margin {
+    width: 50%
+}
+.col-2 .module .info-panel {
+    background: #efefef;
+    height: 90%;
+    width: 60%;
+    margin: 15px 0 0 0
+}
+.col-2 .module .module {
+    width: auto
+}
+.col-3 .module,
+.col-3 .generic-text {
+    width: 33.3%;
+    float: left
+}
+.col-4 .module,
+.col-4 .generic-text {
+    width: 25%;
+    float: left
+}
+.col-half {
+    width: 49.09091%;
+    float: right
+}
+.col-half:first-child {
+    float: left
+}
+.col-1third {
+    width: 33.27273%;
+    float: left;
+    min-width: 320px
+}
+.col-2thirds {
+    width: 66.72727%;
+    float: left;
+    min-width: 320px
+}
+.template008 .grid-row:first-child {
+    margin: 20px 0 0 0
+}
+.template008 .col-1-of-4 {
+    float: left
+}
+.template008 .col-3-of-4 {
+    float: left
+}
+@media screen and (min-width: 575px) {
+    .col-1third {
+        min-width: inherit
+    }
+    .col-2thirds {
+        min-width: inherit
+    }
+    .section-wrap .module.dark:hover {
+        cursor: pointer
+    }
+    .section-wrap .module.dark:hover .hover-down {
+        background: url("//static.o2.co.uk/shared/img/hover-down-light.png") repeat scroll 0 0 transparent
+    }
+    .section-wrap .module.default-pointer:hover {
+        cursor: default !important
+    }
+    .col-2.indented .module {
+        width: 50%
+    }
+    .col-2.indented .module:first-child {
+        width: 50%
+    }
+    .col-2.indented .module .module-body {
+        padding: 0 20px 0 0
+    }
+    .col-2.indented .module:first-child .module-body {
+        padding: 0 0 0 20px
+    }
+    .col-1-to-3 {
+        width: 75%;
+        float: none
+    }
+    .template008 .grid-row:first-child {
+        margin: 10px 0 0 0
+    }
+    .template008 .col-1-of-4 {
+        float: left
+    }
+    .template008 .col-1-of-4 .navleft {
+        margin: 0
+    }
+    .template008 .col-3-of-4 {
+        float: right
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 574px) {
+    .section-wrap {
+        height: auto !important
+    }
+    .section-wrap.short {
+        height: 100px
+    }
+    .section-wrap.short .module {
+        height: 100px
+    }
+    .section-wrap.short .module .module-body {
+        height: 100px
+    }
+    .section-wrap.tall {
+        height: 260px
+    }
+    .section-wrap.tall .module-body {
+        height: 260px
+    }
+    .col-3 .module,
+    .col-half,
+    .col-2thirds,
+    .col-1third {
+        width: 100%;
+        overflow: hidden
+    }
+}
+@media screen and (min-width: 815px) {
+    .col-2.indented .module .module-body {
+        padding: 0 30px 0 0
+    }
+    .col-2.indented .module:first-child .module-body {
+        padding: 0 0 0 30px
+    }
+    .col-1-of-4 {
+        width: 25%;
+        float: left
+    }
+    .col-3-of-4 {
+        width: 75%;
+        float: right
+    }
+    .col-1-to-3 {
+        width: 75%;
+        float: left
+    }
+    .template008 .grid-row:first-child {
+        margin: 30px 0 0 0
+    }
+}
+body {
+    min-width: 320px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Frutiger55, sans-serif;
+    width: 100%;
+    background-color: #f8f8f8
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body .module li {
+    font-family: Frutiger45Light, sans-serif;
+    font-weight: 100;
+    line-height: 1em
+}
+body #o2-page-wrapper {
+    min-width: 320px
+}
+body p {
+    line-height: 1.25em
+}
+body ul li {
+    list-style-type: none
+}
+body .speak {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    display: none;
+    padding: 0;
+    border: 0;
+    display: none
+}
+body a.skip-link {
+    position: absolute;
+    left: -999em;
+    font-size: 12px;
+    color: #419eda;
+    display: inline
+}
+body a.skip-link:focus {
+    left: auto;
+    top: 5px;
+    border: 3px #3399cc solid;
+    background-color: #fff;
+    padding: 5px;
+    z-index: 999;
+    margin-left: 5px
+}
+body .hiddenChatButton {
+    display: none
+}
+a {
+    text-decoration: none
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0;
+    padding: 0
+}
+@media screen and (min-width: 575px) and (max-width: 814px) {
+    #o2-page-wrapper #mobile-header,
+    #o2-page-wrapper #mobile-footer {
+        display: block;
+        background: url("//static.o2.co.uk/shared/img/mobile-nav-bg.png") repeat-x scroll center center #efefef;
+        height: 170px;
+        color: #fff;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        text-align: center
+    }
+    #o2-page-wrapper #mobile-header h1,
+    #o2-page-wrapper #mobile-footer h1 {
+        position: relative;
+        top: 50px
+    }
+}
+@media screen and (max-width: 574px) {
+    .grid-row {
+        margin-bottom: 0
+    }
+    #o2-page-wrapper .section-wrap {
+        margin-bottom: 0;
+        min-width: 320px
+    }
+    #o2-page-wrapper .section-wrap .module {
+        width: 100%
+    }
+    #o2-page-wrapper .section-wrap .module.last {
+        float: left;
+        width: 100%
+    }
+    #o2-page-wrapper .section-wrap .module .product {
+        border-right: none
+    }
+    #mobile-header,
+    #mobile-footer {
+        display: block;
+        background: url("//static.o2.co.uk/shared/img/mobile-nav-bg.png") repeat-x scroll center center #efefef;
+        height: 170px;
+        color: #fff;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        text-align: center
+    }
+    #mobile-header h1,
+    #mobile-footer h1 {
+        position: relative;
+        top: 50px
+    }
+}
+#javascriptWarning {
+    display: none;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    background-color: #fcfdde;
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center
+}
+
+
+
+/*******Carousel Code************/
+.no-backgroundsize .carousel li.slide,
+.no-js .carousel li.slide {
+    background-size: auto;
+    background-position: right center
+}
+.backgroundsize .carousel li.slide {
+    background-size: cover;
+    background-position: right center
+}
+.js .carousel,
+.js .carousel li {
+    height: 240px
+}
+.carousel li {
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: auto 100%;
+    height: 200px
+}
+.carousel li:hover .cta {
+    text-decoration: underline
+}
+.carousel li.iphone {
+    background-position: 0 50%!important
+}
+.carousel li h2 {
+    color: #032b5a;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-family: Frutiger45Light, sans-serif;
+    margin-bottom: 8px
+}
+.carousel li p {
+    color: #032b5a;
+    font-size: 12px;
+    font-size: .75rem;
+    font-family: Frutiger55, sans-serif
+}
+.carousel li p.cta {
+    color: #419eda;
+    font-size: 14px;
+    font-size: .875rem;
+    font-family: Frutiger55, sans-serif;
+    display: block;
+    background-image: url(//static.o2.co.uk/shared/img/promo-cta-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 0 -35px;
+    padding: 0 0 0 25px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 59px
+}
+.carousel li.dark {
+    background-color: #032b5a
+}
+.carousel li.dark h2,
+.carousel li.dark p {
+    color: #fff
+}
+.carousel li.dark p.cta {
+    color: #fff;
+    background-position: 0 -95px
+}
+.carousel a {
+    display: block;
+    height: 240px
+}
+.carousel .slide-content {
+    position: relative;
+    padding: 25px 0 39px 20px;
+    width: 55%;
+    height: 176px
+}
+.carousel-wrapper {
+    position: relative;
+    background-color: transparent
+}
+.carousel-wrapper ul {
+    position: relative
+}
+.carousel-wrapper .carousel-controller {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    height: 39px;
+    width: 100%;
+    left: 50%;
+    background: rgba(0, 0, 0, .5)
+}
+.carousel-wrapper .carousel-controller .pip {
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    margin: 14px 2px 0
+}
+.carousel-wrapper .carousel-controller .pip.active {
+    background: #419eda
+}
+.carousel-wrapper .carousel-controller .pip b,
+.carousel-wrapper .carousel-controller .pip.active b,
+.carousel-wrapper .carousel-controller .piptimer {
+    display: none
+}
+.carousel-wrapper .carousel-controller .ctrl-next,
+.carousel-wrapper .carousel-controller .ctrl-prev {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    background-image: url(//static.o2.co.uk/shared/img/modules/carousel-prev)
+}
+.carousel-wrapper .carousel-controller .ctrl-next.js-highlight,
+.carousel-wrapper .carousel-controller .ctrl-next:active,
+.carousel-wrapper .carousel-controller .ctrl-prev.js-highlight,
+.carousel-wrapper .carousel-controller .ctrl-prev:active {
+    background-color: #032b5a
+}
+.carousel-wrapper .carousel-controller .ctrl-next {
+    right: 0;
+    left: auto;
+    background-image: url(//static.o2.co.uk/shared/img/modules/carousel-next)
+}
+.carousel-wrapper .carousel-window {
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+.carousel-wrapper .carousel-window li {
+    float: left;
+    position: relative
+}
+@media screen and (max-width: 320px) {
+    .backgroundsize li.iphone {
+        background-size: cover;
+        background-position: 0 50%!important
+    }
+}
+@media screen and (max-width: 575px) {
+    .backgroundsize .positionFix li {
+        background-size: cover;
+        background-position: 0 50%!important
+    }
+    .carousel-wrapper .carousel-controller .pip {
+        background-image: none!important
+    }
+}
+@media screen and (min-width: 575px) {
+    .carousel a,
+    .carousel li,
+    .js .carousel,
+    .js .carousel li {
+        height: 300px
+    }
+    .carousel li,
+    .carousel li.iphone {
+        background-size: auto!important;
+        background-position: center center!important
+    }
+    .carousel li h2 {
+        font-size: 30px;
+        font-size: 1.875rem
+    }
+    .carousel li p {
+        font-size: 14px;
+        font-size: .875rem;
+        margin-bottom: 12px
+    }
+    .carousel li p.cta {
+        background-position: 0 2px;
+        font-size: 21px;
+        font-size: 1.3125rem;
+        padding: 0 0 0 30px;
+        font-family: Frutiger45Light, sans-serif;
+        position: relative;
+        bottom: auto
+    }
+    .carousel li.dark p.cta {
+        background-position: 0 -58px
+    }
+    .carousel .slide-content {
+        height: auto;
+        width: 50%;
+        padding: 55px 0 0;
+        float: right
+    }
+    .carousel .slide-content h2,
+    .carousel .slide-content p {
+        padding-right: 60px
+    }
+    .carousel-wrapper .carousel-controller {
+        background: 0 0;
+        height: 54px
+    }
+    .carousel-wrapper .carousel-controller .pip-wrap {
+        display: inline-block;
+        height: 54px;
+        position: relative;
+        width: 110px
+    }
+    .carousel-wrapper .carousel-controller .pip {
+        height: 30px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        cursor: pointer;
+        width: 100px;
+        border: 0;
+        margin: 0 5px;
+        -webkit-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, .5);
+        box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, .5);
+        -webkit-border-top-left-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-topleft: 0;
+        -moz-border-radius-topright: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0
+    }
+    .carousel-wrapper .carousel-controller .pip.active {
+        height: 54px!important;
+        -moz-transition: .15s;
+        -webkit-transition: .15s;
+        -o-transition: .15s;
+        transition: .15s
+    }
+    .carousel-wrapper .carousel-controller .pip.timer {
+        background-clip: padding-box;
+        border-top: 2px solid rgba(0, 0, 0, .5);
+        height: 52px!important
+    }
+    .carousel-wrapper .carousel-controller .pip:hover {
+        height: 40px;
+        -moz-transition: .15s;
+        -webkit-transition: .15s;
+        -o-transition: .15s;
+        transition: .15s
+    }
+    .carousel-wrapper .carousel-controller .pip b {
+        position: absolute;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: frutiger55;
+        top: 0;
+        left: 0;
+        width: 90px;
+        padding: 0 5px;
+        background: #FFF;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+        height: 19px;
+        line-height: 19px;
+        text-overflow: ellipsis
+    }
+    .carousel-wrapper .carousel-controller .piptimer {
+        position: absolute;
+        height: 2px;
+        background: #FFF;
+        top: -2px;
+        left: 0;
+        display: block;
+        width: 0
+    }
+    .carousel-wrapper .carousel-controller .ctrl-next,
+    .carousel-wrapper .carousel-controller .ctrl-prev {
+        top: -130px;
+        background-color: #032b5a;
+        background-color: rgba(0, 0, 0, .5)
+    }
+}
+@media screen and (min-width: 815px) {
+    .carousel a,
+    .carousel li,
+    .js .carousel,
+    .js .carousel li {
+        height: 400px
+    }
+    .carousel li {
+        background-size: auto!important;
+        background-position: center center!important
+    }
+    .carousel li h2 {
+        font-size: 46px;
+        font-size: 2.875rem
+    }
+    .carousel li p {
+        font-size: 16px;
+        font-size: 1rem;
+        margin-bottom: 20px
+    }
+    .carousel li p.cta {
+        background-position: 0 4px;
+        font-size: 25px;
+        font-size: 1.5625rem
+    }
+    .carousel li.dark p.cta {
+        background-position: 0 -57px
+    }
+    .carousel .slide-content {
+        padding: 82px 0 0
+    }
+    .carousel .slide-content h2,
+    .carousel .slide-content p {
+        padding-right: 100px;
+        margin-left: 50px
+    }
+    .carousel-wrapper .carousel-controller .ctrl-next,
+    .carousel-wrapper .carousel-controller .ctrl-prev {
+        top: -180px
+    }
+}
+.no-backgroundsize .carousel li.slide,
+.no-js .carousel li.slide {
+    background-size: auto;
+    background-position: right center
+}
+.backgroundsize .carousel li.slide {
+    background-size: cover;
+    background-position: right center
+}
+.js .carousel,
+.js .carousel li {
+    height: 240px
+}
+.carousel li {
+    background-color: #EFEFEF;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: auto 100%;
+    height: 200px
+}
+.carousel li:hover .cta {
+    text-decoration: underline
+}
+.carousel li h2 {
+    color: #032b5a;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-family: Frutiger45Light, sans-serif;
+    margin-bottom: 8px
+}
+.carousel li p {
+    color: #032b5a;
+    font-size: 12px;
+    font-size: .75rem;
+    font-family: Frutiger55, sans-serif
+}
+.carousel li p.cta {
+    color: #419eda;
+    font-size: 14px;
+    font-size: .875rem;
+    font-family: Frutiger55, sans-serif;
+    display: block;
+    background-image: url(//static.o2.co.uk/shared/img/promo-cta-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 0 -35px;
+    padding: 0 0 0 25px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 59px
+}
+.carousel li.dark {
+    background-color: #032b5a
+}
+.carousel li.dark h2,
+.carousel li.dark p {
+    color: #fff
+}
+.carousel li.dark p.cta {
+    color: #fff;
+    background-position: 0 -95px
+}
+.carousel a {
+    display: block;
+    height: 240px
+}
+.carousel .slide-content {
+    position: relative;
+    padding: 25px 0 39px 20px;
+    width: 55%;
+    height: 176px
+}
+.carousel-wrapper {
+    position: relative;
+    background-color: transparent
+}
+.carousel-wrapper ul {
+    position: relative
+}
+.carousel-wrapper .carousel-controller {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    height: 39px;
+    width: 100%;
+    left: 50%;
+    background: rgba(0, 0, 0, .5)
+}
+.carousel-wrapper .carousel-controller .pip {
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    margin: 14px 2px 0
+}
+.carousel-wrapper .carousel-controller .pip.active {
+    background: #419eda
+}
+.carousel-wrapper .carousel-controller .pip b,
+.carousel-wrapper .carousel-controller .pip.active b,
+.carousel-wrapper .carousel-controller .piptimer {
+    display: none
+}
+.carousel-wrapper .carousel-controller .ctrl-next,
+.carousel-wrapper .carousel-controller .ctrl-prev {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    background-image: url(//static.o2.co.uk/shared/img/modules/carousel-prev)
+}
+.carousel-wrapper .carousel-controller .ctrl-next.js-highlight,
+.carousel-wrapper .carousel-controller .ctrl-next:active,
+.carousel-wrapper .carousel-controller .ctrl-prev.js-highlight,
+.carousel-wrapper .carousel-controller .ctrl-prev:active {
+    background-color: #032b5a
+}
+.carousel-wrapper .carousel-controller .ctrl-next {
+    right: 0;
+    left: auto;
+    background-image: url(//static.o2.co.uk/shared/img/modules/carousel-next)
+}
+.carousel-wrapper .carousel-window {
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+.carousel-wrapper .carousel-window li {
+    float: left;
+    position: relative
+}
+@media screen and (max-width: 575px) {
+    .backgroundsize .positionFix li {
+        background-size: cover;
+        background-position: 0 50%!important
+    }
+    .carousel-wrapper .carousel-controller .pip {
+        background-image: none!important
+    }
+}
+@media screen and (min-width: 575px) {
+    .carousel a,
+    .carousel li,
+    .js .carousel,
+    .js .carousel li {
+        height: 300px
+    }
+    .carousel li {
+        background-size: auto!important;
+        background-position: center center!important
+    }
+    .carousel li h2 {
+        font-size: 30px;
+        font-size: 1.875rem
+    }
+    .carousel li p {
+        font-size: 14px;
+        font-size: .875rem;
+        margin-bottom: 12px
+    }
+    .carousel li p.cta {
+        background-position: 0 2px;
+        font-size: 21px;
+        font-size: 1.3125rem;
+        padding: 0 0 0 30px;
+        font-family: Frutiger45Light, sans-serif;
+        position: relative;
+        bottom: auto
+    }
+    .carousel li.dark p.cta {
+        background-position: 0 -58px
+    }
+    .carousel .slide-content {
+        height: auto;
+        width: 50%;
+        padding: 55px 0 0;
+        float: right
+    }
+    .carousel .slide-content h2,
+    .carousel .slide-content p {
+        padding-right: 60px
+    }
+    .carousel-wrapper .carousel-controller {
+        background: 0 0;
+        height: 54px
+    }
+    .carousel-wrapper .carousel-controller .pip-wrap {
+        display: inline-block;
+        height: 54px;
+        position: relative;
+        width: 110px
+    }
+    .carousel-wrapper .carousel-controller .pip {
+        height: 30px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        cursor: pointer;
+        width: 100px;
+        border: 0;
+        margin: 0 5px;
+        -webkit-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, .5);
+        box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, .5);
+        -webkit-border-top-left-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-topleft: 0;
+        -moz-border-radius-topright: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0
+    }
+    .carousel-wrapper .carousel-controller .pip.active {
+        height: 54px!important;
+        -moz-transition: .15s;
+        -webkit-transition: .15s;
+        -o-transition: .15s;
+        transition: .15s
+    }
+    .carousel-wrapper .carousel-controller .pip.timer {
+        background-clip: padding-box;
+        border-top: 2px solid rgba(0, 0, 0, .5);
+        height: 52px!important
+    }
+    .carousel-wrapper .carousel-controller .pip:hover {
+        height: 40px;
+        -moz-transition: .15s;
+        -webkit-transition: .15s;
+        -o-transition: .15s;
+        transition: .15s
+    }
+    .carousel-wrapper .carousel-controller .pip b {
+        position: absolute;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: frutiger55;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 5px;
+        background: #FFF;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+        height: 19px;
+        line-height: 19px;
+        text-overflow: ellipsis
+    }
+    .carousel-wrapper .carousel-controller .piptimer {
+        position: absolute;
+        height: 2px;
+        background: #FFF;
+        top: -2px;
+        left: 0;
+        display: block;
+        width: 0
+    }
+    .carousel-wrapper .carousel-controller .ctrl-next,
+    .carousel-wrapper .carousel-controller .ctrl-prev {
+        top: -130px;
+        background-color: #032b5a;
+        background-color: rgba(0, 0, 0, .5)
+    }
+}
+@media screen and (min-width: 815px) {
+    .carousel a,
+    .carousel li,
+    .js .carousel,
+    .js .carousel li {
+        height: 400px
+    }
+    .carousel li {
+        background-size: auto!important;
+        background-position: center center!important
+    }
+    .carousel li h2 {
+        font-size: 46px;
+        font-size: 2.875rem
+    }
+    .carousel li p {
+        font-size: 16px;
+        font-size: 1rem;
+        margin-bottom: 20px
+    }
+    .carousel li p.cta {
+        background-position: 0 4px;
+        font-size: 25px;
+        font-size: 1.5625rem
+    }
+    .carousel li.dark p.cta {
+        background-position: 0 -57px
+    }
+    .carousel .slide-content {
+        padding: 82px 0 0
+    }
+    .carousel .slide-content h2,
+    .carousel .slide-content p {
+        padding-right: 100px;
+        margin-left: 50px
+    }
+    .carousel-wrapper .carousel-controller .ctrl-next,
+    .carousel-wrapper .carousel-controller .ctrl-prev {
+        top: -180px
+    }
+}
+
+.no-js .money,
+.no-js .pbbo,
+.no-js ul.formItems {
+    display: none
+}
+.no-js .accordion .inner h4 {
+    margin-bottom: 20px;
+    padding: 12px 0
+}
+.no-js .minwidth75 h2 {
+    margin: 20px
+}
+.no-js .chatonline {
+    display: none
+}
+.js #mainContactUs ul.formItems {
+    display: block
+}
+.js #mainContactUs .accordion {
+    visibility: hidden
+}
+.js #side .accordion,
+.no-js-version {
+    display: none
+}
+.dBlock {
+    width: auto;
+    display: block;
+    clear: left
+}
+.padl20 {
+    padding-left: 20px
+}
+.mar20 {
+    margin: 20px 0 20px 20px
+}
+.cf:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+.cf {
+    display: inline-block
+}
+html[xmlns] .cf {
+    display: block
+}
+* html .cf {
+    height: 1%
+}
+.contactus-promo-m-live-chat,
+.contactus-promo-s-live-chat {
+    display: none
+}
+.no-backgroundsize #contatcus-promo-xl-1-available,
+.no-js #contatcus-promo-xl-1-available {
+    background: url(//static.o2.co.uk/www/img/contactus/p1/promo-m-short-available.jpg) right 0 no-repeat
+}
+.no-backgroundsize #contatcus-promo-xl-1-busy,
+.no-js #contatcus-promo-xl-1-busy {
+    background: url(//static.o2.co.uk/www/img/contactus/p1/promo-m-short-busy.jpg) right 0 no-repeat
+}
+.no-backgroundsize #contatcus-promo-xl-1-offline,
+.no-js #contatcus-promo-xl-1-offline {
+    background: url(//static.o2.co.uk/www/img/contactus/p1/promo-m-short-offline.jpg) right 0 no-repeat
+}
+.backgroundsize #contatcus-promo-xl-1-available {
+    background: url(//static.o2.co.uk/www/img/contactus/p1/promo-m-short-available.jpg) right 0 no-repeat
+}
+.backgroundsize #contatcus-promo-xl-1-busy {
+    background: url(//static.o2.co.uk/www/img/contactus/p1/promo-m-short-busy.jpg) right 0 no-repeat
+}
+.backgroundsize #contatcus-promo-xl-1-offline {
+    background: url(//static.o2.co.uk/www/img/contactus/p1/promo-m-short-offline.jpg) right 0 no-repeat
+}
+.cuextramartop20 {
+    margin-top: 20px
+}
+
+/*Shop HP Hacks*/
+
+.kanLinkHeightFix{height: 59px !important;}
+.kanBorderFix{border-right: 0 !important;}
+@media screen and (min-width: 815px){
+    .product-s .kanContainerHeightFix {height: 350px !important;}
+	.product-s .info h3{height: 70px !important;}
+}
+.kanThreeTileHeightFix{height: 200px !important;}
+
+@media screen and (max-width: 574px) {
+    .carousel li p.cta{bottom:0px !important;}
+    .kanContainerHeightmFix {height: 190px !important;}
+    .carousel .slide-content{width:60% !important}
+}
+
+.promo-m-short-light {
+    align: center;
+}

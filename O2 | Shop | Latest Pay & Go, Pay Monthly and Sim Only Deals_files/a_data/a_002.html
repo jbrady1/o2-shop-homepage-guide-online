@@ -1,0 +1,15 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body><script type="text/javascript">
+//2
+(function() {
+	var U1 = "https://servedby.flashtalking.com/spot/6/2746;45787;5165/?U26=desktop&ft_referrer=https%3A//www.o2.co.uk/shop%3Fcm_mmc%3Dgoogleuk-_-PPC_Direct_Brand-_-O2Shops-_-O2Shop-SingleKeywordExact%2520O2Shop%2520Exact%26gclid%3DCOuvwsmAmMoCFQIGwwod7tMBLA%26gclsrc%3Daw.ds&ns=https%3A//www.google.co.uk&cb=99127.40990317936&ft_fp_guid=2704AF8DD8A595";
+	if (~U1.toLowerCase().indexOf("servedby.flashtalking.com/spot") && ~document.referrer.toLowerCase().indexOf("servedby.o2.co.uk/container")) {
+		var url = U1,
+			spot = new Image();
+		if (typeof localStorage !== 'undefined' && localStorage.ftGUID) {
+			url += '&ft_guid=' + localStorage.ftGUID;
+		}
+		spot.src = url;
+	}
+}());
+</script></body></html>
